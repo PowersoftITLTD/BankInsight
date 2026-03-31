@@ -1,0 +1,24 @@
+==============================================
+Date : 21-01-2026 16:07:02
+Error Message:
+Failed to insert Bank_Acc_Summ_NS record for Subsidiary: 25 WEST REALTY PRIVATE LIMITED, Project: 25 West-A (EAST) WING. Error: Record not found for given SubId and displaynamewithhierarchy
+==============================================
+
+==============================================
+Date : 21-01-2026 16:07:02
+Error Message:
+Failed to insert Bank_Acc_Summ_NS record for Subsidiary: 25 WEST REALTY PRIVATE LIMITED, Project: . Error: Record not found for given SubId and displaynamewithhierarchy
+==============================================
+
+==============================================
+Date : 21-01-2026 17:52:48
+Error Message:
+Failed to insert Bank_Acc_Summ_NS record for Subsidiary: 25 WEST REALTY PRIVATE LIMITED, Project: 25 West-A (EAST) WING. Error: Update Success
+==============================================
+
+==============================================
+Date : 21-01-2026 18:11:34
+Error Message:
+Failed to insert Bank_Acc_Summ_NS record for Subsidiary: 25 WEST REALTY PRIVATE LIMITED, Project: 25 West-A (EAST) WING. Error: Update Success
+==============================================
+

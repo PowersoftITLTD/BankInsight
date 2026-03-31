@@ -1,0 +1,1236 @@
+[
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetAccountTypeBalance",
+    "RelativePath": "api/BankPortal/AccountType-Balance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetAccountTypeBalance_PS",
+    "RelativePath": "api/BankPortal/AccountType-Balance_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetAllRefresh_Bank_Acc_Details",
+    "RelativePath": "api/BankPortal/AllRefresh_Bank_Acc_Details",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetApprovalStatusList",
+    "RelativePath": "api/BankPortal/ApprovalStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "activeFlag",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetApprovalStatusList_PS",
+    "RelativePath": "api/BankPortal/ApprovalStatus_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "RefreshBankAccountDetailsByBank",
+    "RelativePath": "api/BankPortal/BanK_Account_Details",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankPortalAPI.Model.CommonBankAccountDetailResponse_ByAccount",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "RefreshBankAccountDetailsByAccountNo",
+    "RelativePath": "api/BankPortal/Bank_Account_Details_ByAccountNo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankPortalAPI.Model.CommonBankAccountDetailResponse_ByAccount",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankAccount_Details",
+    "RelativePath": "api/BankPortal/BankAccount-Details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankAccount_Details_PS",
+    "RelativePath": "api/BankPortal/BankAccount-Details_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetApprovedBankApproval_Hdr",
+    "RelativePath": "api/BankPortal/BankApproval_Hdr-Approved",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetApprovedBankApproval_Hdr_PS",
+    "RelativePath": "api/BankPortal/BankApproval_Hdr-Approved_PS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetCompletedBankApproval_Hdr",
+    "RelativePath": "api/BankPortal/BankApproval_Hdr-Completed",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetCompletedBankApproval_Hdr_PS",
+    "RelativePath": "api/BankPortal/BankApproval_Hdr-Completed_PS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetPendingBankApproval_Hdr",
+    "RelativePath": "api/BankPortal/BankApproval_Hdr-Pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetPendingBankApproval_Hdr_PS",
+    "RelativePath": "api/BankPortal/BankApproval_Hdr-Pending_PS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetRejectBankApproval_Hdr",
+    "RelativePath": "api/BankPortal/BankApproval_Hdr-Rejected",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetRejectBankApproval_Hdr_PS",
+    "RelativePath": "api/BankPortal/BankApproval_Hdr-Rejected_PS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankApprovalCurrentAmount",
+    "RelativePath": "api/BankPortal/BankApprovalCurrentBalance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankApprovalCurrentAmount_PS",
+    "RelativePath": "api/BankPortal/BankApprovalCurrentBalance_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankDetails",
+    "RelativePath": "api/BankPortal/BankDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "businessGroupId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "project",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "building",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "bank",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "account",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "balanceRange",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankDetails_PS",
+    "RelativePath": "api/BankPortal/BankDetails_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBank_Acc_SubSidairy_Dashboard",
+    "RelativePath": "api/BankPortal/BankPortal_Dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBank_Acc_SubSidairy_Dashboard",
+    "RelativePath": "api/BankPortal/BankPortal_Dashboard_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "UserEncryptedbyUserInput",
+    "RelativePath": "api/BankPortal/EncryptedUserbyUserInput",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userInput",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetEntityList",
+    "RelativePath": "api/BankPortal/Entity-List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "project",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "building",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "bank",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "account",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "balanceRange",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetEntityList_PS",
+    "RelativePath": "api/BankPortal/Entity-List_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetAccountDetails",
+    "RelativePath": "api/BankPortal/GetAccountDetails-Filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetAccountDetails_PS",
+    "RelativePath": "api/BankPortal/GetAccountDetails-Filter_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetAccountStatusDetails",
+    "RelativePath": "api/BankPortal/GetAccountStatusDetails-Filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetAccountStatusDetails_PS",
+    "RelativePath": "api/BankPortal/GetAccountStatusDetails-Filter_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetAdditionalInformation",
+    "RelativePath": "api/BankPortal/GetAdditionalInformation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetAdditionalInformation_NT",
+    "RelativePath": "api/BankPortal/GetAdditionalInformation_NT",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankAccountInfo",
+    "RelativePath": "api/BankPortal/GetBankAccountInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankAccountInfo_PS",
+    "RelativePath": "api/BankPortal/GetBankAccountInfo_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankDetailsCard",
+    "RelativePath": "api/BankPortal/GetBankDetail_Card",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankDetailsCard_PS",
+    "RelativePath": "api/BankPortal/GetBankDetail_Card_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankDetailsFilter",
+    "RelativePath": "api/BankPortal/GetBankDetails-Filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankDetailsFilter_PS",
+    "RelativePath": "api/BankPortal/GetBankDetails-Filter_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankTopEntitiesbyBalance",
+    "RelativePath": "api/BankPortal/GetBankTopEntitiesbyBalance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankTopEntitiesbyBalance_Ps",
+    "RelativePath": "api/BankPortal/GetBankTopEntitiesbyBalance_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankTopProjectbyBalance",
+    "RelativePath": "api/BankPortal/GetBankTopProjectbyBalance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBankTopProjectbyBalance_PS",
+    "RelativePath": "api/BankPortal/GetBankTopProjectbyBalance_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBuildingDetails",
+    "RelativePath": "api/BankPortal/GetBuildingDetails-Filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetBuildingDetails_PS",
+    "RelativePath": "api/BankPortal/GetBuildingDetails-Filter_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetLegalEntityDetails",
+    "RelativePath": "api/BankPortal/GetLegalEntityDetails-Filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetLegalEntityDetails_PS",
+    "RelativePath": "api/BankPortal/GetLegalEntityDetails-Filter_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetProjectDetails",
+    "RelativePath": "api/BankPortal/GetProjectDetails-Filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetProjectDetails_PS",
+    "RelativePath": "api/BankPortal/GetProjectDetails-Filter_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetViewAllBankDetailBy_BankId",
+    "RelativePath": "api/BankPortal/GetViewAllBankDetailBy_BankId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BankId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "BankName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetViewAllBankDetailBy_BankId_PS",
+    "RelativePath": "api/BankPortal/GetViewAllBankDetailBy_BankId_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "InsertBank_Approval_Hdr",
+    "RelativePath": "api/BankPortal/InsertBank_Approval_Hdr",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bank_Approval_Hdr_Model",
+        "Type": "BankPortalAPI.Model.Bank_Approval_Hdr_Model",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "InsertBank_Approval_Hdr_PS",
+    "RelativePath": "api/BankPortal/InsertBank_Approval_Hdr_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetProjectList",
+    "RelativePath": "api/BankPortal/Project-List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "project",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "building",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "bank",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "account",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "balanceRange",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "GetProjectList_PS",
+    "RelativePath": "api/BankPortal/Project-List_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "Refresh_Bank_Acc_Details_ById",
+    "RelativePath": "api/BankPortal/Refresh_Bank_Acc_Details_ById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BankPortalAPI.Model.RefreshBankAccDetailsByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "Update_Bank_Approval_Hdr",
+    "RelativePath": "api/BankPortal/Update_Bank_Approval_Hdr",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "update_BnakPortal",
+        "Type": "BankPortalAPI.Model.Update_BnakPortalApproval",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "Update_Bank_Approval_Hdr_PS",
+    "RelativePath": "api/BankPortal/Update_Bank_Approval_Hdr_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.BankPortalController",
+    "Method": "UserDecryptedPasswordVerifying",
+    "RelativePath": "api/BankPortal/UserDecryptedPasswordVerifying",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.UserMasterAuthController",
+    "Method": "GetAccountDetails",
+    "RelativePath": "GetAccountDetails-Filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.UserMasterAuthController",
+    "Method": "GetAccountStatusDetails",
+    "RelativePath": "GetAccountStatusDetails-Filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.UserMasterAuthController",
+    "Method": "GetBankDetails",
+    "RelativePath": "GetBankDetails-Filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.UserMasterAuthController",
+    "Method": "GetBuildingDetails",
+    "RelativePath": "GetBuildingDetails-Filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.UserMasterAuthController",
+    "Method": "GetLegalEntityDetails",
+    "RelativePath": "GetLegalEntityDetails-Filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.UserMasterAuthController",
+    "Method": "GetProjectDetails",
+    "RelativePath": "GetProjectDetails-Filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.UserMasterAuthController",
+    "Method": "GetUserInfo",
+    "RelativePath": "GetUserInfo-SingalSignOnDecryptUserDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EncryptedUserDetails",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userModel",
+        "Type": "BankPortalAPI.Model.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.AuthController",
+    "Method": "Login_PS",
+    "RelativePath": "login_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.AuthController",
+    "Method": "LoginRegistration",
+    "RelativePath": "Login/Registration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "LoginName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PasswordHash",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.AuthController",
+    "Method": "LoginRegistration_PS",
+    "RelativePath": "Login/Registration_PS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jsonEncrypt",
+        "Type": "BankPortalAPI.Model.jsonEncryptModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.UserMasterAuthController",
+    "Method": "SingleSignOnUserInputLogin",
+    "RelativePath": "SingleSignOn-Login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.UserMasterAuthController",
+    "Method": "ChangePasswordNT",
+    "RelativePath": "Task-Management/Change_Password_NT",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePasswordInput",
+        "Type": "BankPortalAPI.Model.ChangePasswordInputNT",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BankPortalAPI.Model.PutChangePasswordOutPutNT",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.UserMasterAuthController",
+    "Method": "ForgotPassword",
+    "RelativePath": "Task-Management/Forgot_Password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "forgotPasswordInput",
+        "Type": "BankPortalAPI.Model.ForgotPasswordInput",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BankPortalAPI.Model.ResetPasswordOutPut_List, BankPortalAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.UserMasterAuthController",
+    "Method": "UploadExcel",
+    "RelativePath": "Upload_ExcelFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.UserMasterAuthController",
+    "Method": "Login",
+    "RelativePath": "User-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userModel",
+        "Type": "BankPortalAPI.Model.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.AuthController",
+    "Method": "UserDecryptedPasswordVerifying",
+    "RelativePath": "UserDecryptedPasswordVerifying",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.UserMasterAuthController",
+    "Method": "UserMasterDecryptedPasswordVerifying",
+    "RelativePath": "UserMasterDecryptedPasswordVerifying",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.UserMasterAuthController",
+    "Method": "GetValidateUserbyUserInput",
+    "RelativePath": "Validate_AuthenticationBy-UserInput",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userInput",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankPortalAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BankPortalAPI.WeatherForecast, BankPortalAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

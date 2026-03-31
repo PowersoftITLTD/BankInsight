@@ -1,0 +1,224 @@
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\appsettings.json
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.staticwebassets.endpoints.json
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.exe
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.deps.json
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.runtimeconfig.json
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.pdb
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Dapper.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.csproj.AssemblyReference.cache
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.AssemblyInfoInputs.cache
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.AssemblyInfo.cs
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.csproj.CoreCompileInputs.cache
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\scopedcss\bundle\BankPortalAPI.styles.css
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets\msbuild.BankPortalAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets\msbuild.BankPortalAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.BankPortalAPI.props
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BankPortalAPI.props
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BankPortalAPI.props
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPort.08C6EBC7.Up2Date
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\refint\BankPortalAPI.dll
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.pdb
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.genruntimeconfig.cache
+D:\Data\User Profile\Itemad Hyder\repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\ref\BankPortalAPI.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\appsettings.json
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.staticwebassets.endpoints.json
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.exe
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.deps.json
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.runtimeconfig.json
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.pdb
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Dapper.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.csproj.AssemblyReference.cache
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.AssemblyInfoInputs.cache
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.AssemblyInfo.cs
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.csproj.CoreCompileInputs.cache
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\scopedcss\bundle\BankPortalAPI.styles.css
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets\msbuild.BankPortalAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets\msbuild.BankPortalAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.BankPortalAPI.props
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BankPortalAPI.props
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BankPortalAPI.props
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPort.08C6EBC7.Up2Date
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\refint\BankPortalAPI.dll
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.pdb
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.genruntimeconfig.cache
+D:\Data\User Profile\Itemad Hyder\itemad Repo\Haider\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\ref\BankPortalAPI.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\appsettings.json
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\libman.json
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.staticwebassets.endpoints.json
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.exe
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.deps.json
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.runtimeconfig.json
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.pdb
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Dapper.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\EPPlus.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\EPPlus.Interfaces.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.csproj.AssemblyReference.cache
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.AssemblyInfoInputs.cache
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.AssemblyInfo.cs
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.csproj.CoreCompileInputs.cache
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\scopedcss\bundle\BankPortalAPI.styles.css
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPort.08C6EBC7.Up2Date
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\refint\BankPortalAPI.dll
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.pdb
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.genruntimeconfig.cache
+D:\Amit\Itemad Laptop BacKUp\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\ref\BankPortalAPI.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\appsettings.Development.json
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\appsettings.json
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\libman.json
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.staticwebassets.endpoints.json
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.exe
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.deps.json
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.runtimeconfig.json
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BankPortalAPI.pdb
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Dapper.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\EPPlus.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\EPPlus.Interfaces.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\jose-jwt.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\RestSharp.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\System.Data.SqlClient.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.csproj.AssemblyReference.cache
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.GeneratedMSBuildEditorConfig.editorconfig
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.AssemblyInfoInputs.cache
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.AssemblyInfo.cs
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.csproj.CoreCompileInputs.cache
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.MvcApplicationPartsAssemblyInfo.cs
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.MvcApplicationPartsAssemblyInfo.cache
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\scopedcss\bundle\BankPortalAPI.styles.css
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.build.json
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.development.json
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPort.08C6EBC7.Up2Date
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\refint\BankPortalAPI.dll
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.pdb
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\BankPortalAPI.genruntimeconfig.cache
+E:\Itemad Hyder Laptop Data\Data\User Profile\Itemad Hyder\itemad Repo\BankPortalAPI\BankPortalAPI\obj\Debug\net8.0\ref\BankPortalAPI.dll
