@@ -1,0 +1,102 @@
+<div class="treetable-host">
+  <p-treeTable [value]="data" > <!-- scrollHeight="flex" calc(90vh - 100px)-->
+
+    <!-- Column widths -->
+    <ng-template pTemplate="colgroup">
+      <colgroup >
+        <col style="width: 250px" /> <!-- first column -->
+        <ng-container *ngFor="let group of groupedColumns">
+          <col *ngFor="let sub of group.subFields" [style.width.px]="sub.width || 120" />
+        </ng-container>
+      </colgroup>
+    </ng-template>
+
+    <!-- Table Header -->
+    <ng-template pTemplate="header" >
+      <tr class="header_width" >
+        <th rowspan="2" style="background-color: rgb(242 241 241);" >{{ firstColumnHeader }}</th>  <!--[ngClass]="{'main-header': firstColumnHeader === 'Entity/ Project/ Account'}"-->
+        <ng-container *ngFor="let group of groupedColumns">
+          <th [attr.colspan]="group.subFields.length" class="text-center"
+          [ngClass]="{
+          'header-grey-cell-col-1':group.header?.includes('Bank details'),
+          'header-grey-cell-col-2':group.header?.includes('NetSuite Details') 
+          }">
+            <!--[attr.colspan]="group.subFields.length" [style.width.px]="groupWidth(group)"-->
+            {{ group.header }}
+          </th>
+        </ng-container>
+      </tr>
+      <tr>
+        <ng-container *ngFor="let group of groupedColumns">
+          <ng-container *ngFor="let sub of group.subFields" [style.width.px]="sub.width || 120">
+            <th class="text-center" [ngClass]="getSubHeaderClass(sub)">{{ sub.label }}</th>
+          </ng-container>
+        </ng-container>
+      </tr>
+    </ng-template>
+
+    <!-- Table Body -->
+    <ng-template pTemplate="body" let-rowNode let-rowData="rowData">
+      <tr [ttRow]="rowNode">
+        <!-- First column with toggler -->
+        <td class="truncate-text"  style="background-color: rgb(255, 254, 253);">
+          <p-treeTableToggler [rowNode]="rowNode"></p-treeTableToggler>
+          {{ rowData.subsidiary }}
+        </td>
+
+
+        <!-- Dynamic grouped columns -->
+        <ng-container *ngFor="let group of groupedColumns">
+          <ng-container *ngFor="let sub of group.subFields">
+
+            <td [ngClass]="{                
+                'blue-theme-cell':sub.label?.includes('Balance as per bank')||  sub.label?.includes('Bank Book'),
+                'purple-theme-cell':sub.label?.includes('Bank Stmt'),
+                'yellow-theme-cell':sub.label?.includes('Reco date'),
+                'Info':sub.label?.includes?.('Info'),
+                'text-right': sub.label !== 'Info',
+                'icon-center': sub.label === 'Info'
+              }">
+
+              <ng-container *ngIf="sub.label === 'Info'; else valueCell">
+                <span class="icon-center" (click)="onIconClick(rowData)">
+                  <i class="pi pi-eye" style="font-size: 16px;"></i>
+                </span>
+              </ng-container>
+
+              <ng-template #valueCell>
+                <span href="javascript:void(0)"
+                  (click)="onNumberClick(rowData, group.fieldPrefix, sub, rowData[sub.field])">
+                  <span>
+                    <ng-container *ngIf="isRupeeField(sub.field); else normalValue">
+                      <span [ngClass]="negativeAmtfield(rowData[sub.field])">
+                        {{ rowData[sub.field] | indianCurrency }} <!--currency:'INR':'symbol':'1.2-2':'en-IN'-->
+                      </span>
+                    </ng-container>
+
+                    <ng-template #normalValue>
+                      {{ rowData[sub.field] }}
+                    </ng-template>
+                  </span>
+                </span>
+              </ng-template>
+
+            </td>
+
+          </ng-container>
+        </ng-container>
+      </tr>
+    </ng-template>
+
+    <!-- Empty Message -->
+    <ng-template pTemplate="emptymessage">
+      <tr>
+        <td [attr.colspan]="totalColspan" class="text-center">
+          No Data Found
+        </td>
+
+      </tr>
+    </ng-template>
+
+  </p-treeTable>
+</div>

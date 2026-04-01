@@ -1,0 +1,105 @@
+<p-sidebar
+  [visible]="true"
+  [modal]="false"
+  [showCloseIcon]="false"
+  [style]="{ width: docked ? '250px' : '80px' }"
+  styleClass="z-2"
+>
+  <ng-template pTemplate="headless">
+    <div class="flex flex-column h-full">
+      <!-- Header Section -->
+      <div class="flex align-items-center justify-content-between px-2 pt-3 flex-shrink-0">
+        <span class="inline-flex align-items-center gap-2">
+          <span>
+            <i *ngIf="!docked" ></i>
+          </span>
+        </span>
+        <button
+          pButton
+          class="p-button-sm p-button-text"
+          (click)="toggleDock()"
+          icon="{{ docked ? 'pi pi-angle-double-left' : 'pi pi-angle-double-right' }}"
+        ></button>
+      </div>
+
+      <!-- Menu Items Section -->
+      <div class="overflow-y-auto p-3">
+        <ul class="list-none p-0 m-0">
+          <!-- Loop through menu items -->
+          <li *ngFor="let item of menuItems">
+            <!-- No Children -->
+            <a
+              *ngIf="!item.children && item.hasAccess"
+              pRipple
+              [routerLink]="item.routerLink"
+              routerLinkActive="active"
+              class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors p-ripple no-underline"
+              [pTooltip]="item.label"
+              [tooltipDisabled]="docked"
+              tooltipPosition="right"
+            >
+              <span class="text-sm mr-2">
+                <img [src]="item.icon" alt="" width="20" height="20" />
+              </span>
+              <span *ngIf="docked" class="text-sm">{{ item.label }}</span>
+            </a>
+
+            <!-- Has Children -->
+            <div *ngIf="item.children && item.hasAccess" class="flex flex-column">
+              <a
+                pRipple
+                (click)="docked ? toggleSubMenu(item.label) : openChildOverlay($event, item)"
+                class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors p-ripple"
+                [pTooltip]="item.label"
+                [tooltipDisabled]="docked"
+                tooltipPosition="right"
+              >
+                <span class="text-sm mr-2">
+                  <img [src]="item.icon" alt="" width="20" height="20" />
+                </span>
+                <span *ngIf="docked" class="text-sm">{{ item.label }}</span>
+                <i *ngIf="docked" class="pi pi-chevron-down ml-auto"></i>
+              </a>
+
+              <!-- Expanded mode submenu -->
+              <ul
+                *ngIf="docked && openedMenus.has(item.label)"
+                class="list-none py-0 pl-3 pr-0 m-0 transition-all transition-duration-400 transition-ease-in-out"
+              >
+                <li *ngFor="let child of item.children">
+                  <ng-container *ngIf="child.hasAccess">
+                    <a
+                      pRipple
+                      [routerLink]="child.routerLink"
+                      routerLinkActive="active highlight"
+                      class="flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors p-ripple no-underline"
+                    >
+                      <span class="text-sm">{{ child.label }}</span>
+                    </a>
+                  </ng-container>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <span>
+      <!-- <img class="max-w-full mb-5" src="assets/logo.png" alt="logo" /> -->
+      <img class="max-w-full mb-5" src="assets/Psoft_Logo.png" alt="Powersoft Logo" width="220"/>
+    </span>
+  </ng-template>
+</p-sidebar>
+
+<!-- Overlay Panel for children when sidebar is collapsed -->
+<p-overlayPanel #childOverlay [dismissable]="true">
+  <ul class="list-none p-0 m-0 min-w-max">
+    <li
+      *ngFor="let child of activeChildItems"
+      (click)="navigateTo(child.routerLink!)"
+      class="cursor-pointer p-2 hover:surface-100 text-sm"
+    >
+      {{ child.label }}
+    </li>
+  </ul>
+</p-overlayPanel>

@@ -1,0 +1,199 @@
+/* Sidebar container */
+p-sidebar.task-add {
+  width: 60rem;                // adjust width as needed
+  max-width: 90vw;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Header */
+p-sidebar.task-add ::ng-deep .p-sidebar-header {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Sidebar title */
+p-sidebar.task-add h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+/* Close button */
+p-sidebar.task-add ::ng-deep .p-sidebar-close {
+  color: #888;
+  font-size: 1.2rem;
+  transition: color 0.2s;
+}
+p-sidebar.task-add ::ng-deep .p-sidebar-close:hover {
+  color: #ff4d4f;
+}
+
+/* Form fields */
+p-sidebar.task-add .field {
+  margin-bottom: 1rem;
+}
+
+p-sidebar.task-add label {
+  display: block;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #555;
+  margin-bottom: 0.25rem;
+}
+
+p-sidebar.task-add input,
+p-sidebar.task-add select,
+p-sidebar.task-add textarea,
+p-sidebar.task-add .p-inputtext {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  color: #333;
+  box-sizing: border-box;
+}
+
+p-sidebar.task-add input:focus,
+p-sidebar.task-add select:focus,
+p-sidebar.task-add textarea:focus,
+p-sidebar.task-add .p-inputtext:focus {
+  border-color: #3f51b5;
+  box-shadow: 0 0 0 2px rgba(63, 81, 181, 0.2);
+  outline: none;
+}
+
+/* Buttons */
+p-sidebar.task-add .p-button {
+  border-radius: 8px;
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+}
+
+p-sidebar.task-add .p-button.p-button-primary {
+  background-color: #3f51b5;
+  border: none;
+}
+
+p-sidebar.task-add .p-button.p-button-secondary {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+/* Overlay Panels for dropdowns / listboxes */
+p-sidebar.task-add ::ng-deep .p-overlaypanel {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+
+.side-panel-content[_ngcontent-ng-c2695891435] {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+// .side-panel-content {
+//     height: 100%;
+//     display: flex;
+//     flex-direction: column;
+// }
+
+
+.side-panel {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 400px;
+    height: 100vh;
+    background: #fff;
+    box-shadow: -2px 0 10px #0000001a;
+    z-index: 1050;
+    transition: right .3s ease-in-out;
+    overflow-y: auto;
+}
+
+
+
+.side-panel-header{
+        padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f9fa;
+}
+
+
+.account-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-top: 0.5rem;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.label {
+  font-size: 0.85rem;
+  color: #6b7280; // gray
+}
+
+.value {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #111827;
+}
+
+.value.highlight {
+  color: #2563eb; // blue
+  font-weight: 600;
+}
+
+.detail-row.total .value {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #16a34a; // green
+}
+
+
+ .count-overdue.total .value {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #b02a21ae !important;
+
+  }
+
+
+  .count-overdue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.count-overdue:last-child {
+  border-bottom: none;
+}

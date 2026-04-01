@@ -1,0 +1,197 @@
+.advance-search {
+  display: flex;
+  justify-content: space-between;
+
+  .search-right {
+    display: flex;
+    gap: 1px;
+  }
+}
+
+/* Center the search icon in the input field */
+::ng-deep .advance-search .p-icon-field {
+  position: relative;
+  width: 100%;
+}
+
+::ng-deep .advance-search .p-input-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #6c757d; /* Optional: adjust icon color */
+  z-index: 2;
+}
+
+::ng-deep .advance-search .p-inputtext {
+  padding-left: 2.5rem !important; /* Make space for the icon */
+  width: 100%;
+}
+
+/* Filter options styling */
+.filter-options {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+
+  li:last-child {
+    border-bottom: none;
+  }
+
+  li:hover {
+    background-color: #f0f0f0;
+  }
+
+  // li.selected-filter {
+  //   background-color: rgba(13, 106, 240, 0.5);
+  //   color: white; /* Text color for the selected filter */
+  //   font-weight: bold;
+  // }
+}
+
+/* Place this at the root, not inside any selector */
+::ng-deep .advance-search-overlay .p-overlaypanel-content {
+  padding: 0 5px;
+}
+
+
+.side-bar-scroll {
+  max-height: calc(100vh - 240px);
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.side-bar-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.side-bar-scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.side-bar-scroll::-webkit-scrollbar-thumb {
+  background-color: rgb(107, 108, 112);
+  border-radius: 4px;
+}
+
+.side-bar-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.immediate-filter {
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  transition: background-color 0.2s;
+}
+
+.immediate-filter.clickable:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.selected-immediate {
+  background-color: #d1e7dd; /* Light green */
+  color: #0f5132;
+  font-weight: bold;
+}
+
+.custom-width {
+  width: 3rem;
+  height: 0.5rem;
+}
+::ng-deep .p-tag-value {
+  font-size: 11px;
+}
+
+.sticky-apply-btn {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #fff;
+  padding: 12px 0 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.selected-filters {
+  .p-chip {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 0.2rem 0.4rem;
+    border-radius: 15px;
+    font-size: 11px;
+    white-space: nowrap; /* prevent chip text wrapping */
+  }
+
+  .more-chip {
+    background: #e0e0e0;
+    color: #555;
+    font-size: 11px;
+  }
+}
+
+/* .more-chip {
+  background: #dcdcdc;
+  color: #444;
+  font-weight: 500;
+} */
+
+// .p-chip {
+//   background-color: #f0f4ff; /* or your chosen background */
+//   color: #333;
+//   font-weight: 500;
+//   border-radius: 16px;
+//   padding: 4px 10px;
+//   font-size: 0.85rem;
+// }
+
+.p-overlaypanel .p-chip {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.filter-icon {
+  font-size: 0.8rem; /* slightly bigger */
+  margin-right: 0;
+  color: var(--primary-color);
+  vertical-align: middle;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+/* NEW: Ensure filter icon and chips display inline nicely */
+.d-flex.align-items-center.gap-2.mt-2 {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.1rem !important;
+  flex-wrap: nowrap;
+}
+
+.selected-filters {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  gap: 0.1rem !important;
+  overflow-x: auto;
+  max-width: 100%;
+  align-items: center;
+}
+
+::ng-deep .p-button-text,
+::ng-deep .p-button-text:hover,
+::ng-deep .p-button-text:focus {
+  box-shadow: none !important;
+  background: transparent !important;
+}

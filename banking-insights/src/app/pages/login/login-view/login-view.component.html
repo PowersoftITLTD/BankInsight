@@ -1,0 +1,122 @@
+<div class="main-wrapper grid grid-nogutter">
+
+  <!-- LEFT IMAGE PANEL -->
+  <div class="col-12 sm:col-6 hidden sm:block">
+    <div class="img-wrapper">
+      <img src="assets/BankInsight_2 (1).png" alt="Logo" class="login-logo w-full h-full object-cover" />
+    </div>
+  </div>
+
+  <!-- RIGHT LOGIN PANEL -->
+  <div class="col-12 sm:col-6">
+    <div class="login-wrapper bg-white">
+      <div class="form-container">
+
+        <!-- LOGIN / GET OTP -->
+        <ng-container *ngIf="!otpTemplate(); else otpBlock">
+
+          <h2>Log in to your account</h2>
+          <p>Welcome back! Please enter your details.</p>
+
+          <form [formGroup]="loginForm">
+
+            <!-- USERNAME & PASSWORD -->
+            <ng-container *ngIf="!isOtpMode">
+
+              <app-input
+                label="Username"
+                placeholder="Enter username"
+                [control]="getControl('username')"
+                [required]="true"
+                [errorMessages]="{ required: 'Username is required' }"
+                type="text"
+                formControlName="username">
+              </app-input>
+
+              <app-input
+                label="Password"
+                placeholder="Enter password"
+                [control]="getControl('password')"
+                [required]="true"
+                [errorMessages]="{ required: 'Password is required' }"
+                type="password"
+                formControlName="password"
+                [enablePasswordToggle]="true">
+              </app-input>
+
+              <app-button
+                class="tm-primary-btn mt-4 w-full"
+                [label]="'Login'"
+                [isLoading]="isLoading"
+                (click)="onSubmit()">
+              </app-button>
+
+            </ng-container>
+
+            <!-- OTP MODE -->
+            <ng-container *ngIf="isOtpMode">
+
+              <p class="back-link flex items-center gap-2 mb-3 cursor-pointer" (click)="isOtpMode = false">
+                <i class="pi pi-arrow-left"></i> Back
+              </p>
+
+              <app-input
+                label="Mobile or Email"
+                placeholder="Enter mobile number or email"
+                formControlName="contact"
+                [control]="getControl('contact')"
+                [required]="true"
+                [errorMessages]="{
+                  required: 'This field is required',
+                  pattern: 'Enter a valid mobile number or email'
+                }">
+              </app-input>
+
+              <div class="mt-3">
+                <app-button
+                  class="tm-primary-btn w-full"
+                  [label]="'Get OTP'"
+                  [isLoading]="isLoading"
+                  [disabled]="!loginForm.get('contact')?.valid"
+                  (onClick)="onSendOtp()">
+                </app-button>
+              </div>
+
+            </ng-container>
+
+          </form>
+
+        </ng-container>
+
+        <!-- OTP VERIFICATION SCREEN -->
+        <ng-template #otpBlock>
+
+          <p class="back-link flex items-center gap-2 mb-3 cursor-pointer" (click)="otpTemplate.set(false)">
+            <i class="pi pi-arrow-left"></i> Back
+          </p>
+
+          <h2>Enter OTP</h2>
+          <p>Enter the OTP sent to your mobile/email</p>
+
+        </ng-template>
+
+        <!-- GOOGLE SIGN-IN -->
+        <div #googleBtnRef id="googleButton" class="mt-3"></div>
+
+        <!-- FOOTER -->
+        <div class="login-footer text-center mt-5">
+          <a href="https://www.powersoft.in/" target="_blank" rel="noopener noreferrer">
+            <img src="assets/Psoft_Logo.png" alt="Powersoft Logo" height="50" style="margin-bottom: 8px" />
+          </a>
+          <p class="text-sm mt-2 mb-0" style="color: #000">
+            © {{ currentYear }}
+            <a href="https://www.powersoft.in/" target="_blank" rel="noopener noreferrer" style="color: #000; text-decoration: none">
+              Powersoft
+            </a> All rights reserved.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+<nav class="navbar p-3 bg-white">
+  <div class="navbar-left">
+    <h2 class="font-normal m-0">{{ greetingText }}, {{ userName }}</h2>
+  </div>
+
+  <div class="navbar-right">
+    <div class="calendar">
+      <a class="outline-overlay-btn">
+        <i class="pi pi-calendar"></i>
+        <span class="font-semibold text-700"> {{ todayFormatted }} </span>
+      </a>
+    </div>
+    <div class="icon">
+      <i class="pi pi-bell notifications-icon"></i>
+    </div>
+    <div class="profile">
+      <div (click)="op.toggle($event)" class="profile-pic">{{userName}}{{userDetails.FirstName.charAt(0)}}</div>
+    </div>
+  </div>
+</nav>
+
+<!-- login profile popup section -->
+<p-overlayPanel #op styleClass="w-15rem">
+  <div class="">
+    <div class="roles-title">Account</div>
+    <div class="account-header">
+      <div class="profile-pic">{{userDetails.FirstName.charAt(0)}}</div>
+      <div class="account-info">
+        <div class="account-name">{{userName}}</div>
+        <div class="account-email" [title]="userEmail">{{userDetails.FirstName}}</div>
+      </div>
+    </div>
+
+    <hr class="divider" />
+    <div class="logout-section">
+      <a class="logout-link cursor-pointer" (click)="logout()">
+        <span class="logout-icon"><i class="pi pi-sign-out settings-icon"></i></span>
+        Logout
+      </a>
+    </div>
+  </div>
+</p-overlayPanel>

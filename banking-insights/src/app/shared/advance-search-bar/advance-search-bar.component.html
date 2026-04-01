@@ -1,0 +1,290 @@
+<div class="advance-search mb-2">
+  <div class="search">
+    <p-iconField iconPosition="left" >
+      <p-inputIcon styleClass="pi pi-search"  class="centered-icon" />
+      
+      <input
+        type="text"
+        pInputText
+        [placeholder]="placeholderText"
+        [(ngModel)]="searchText"
+        (ngModelChange)="onSearchChange()"
+        [style.width]="searchInputWidth ? searchInputWidth : '100%'"
+      />
+    </p-iconField>
+  </div>
+  <!-- filter  selected items  option UI  -->
+  <!-- Selected Filter Tags UI -->
+  <!-- <div class="selected-filters d-flex flex-wrap gap-2 mt-2">
+    <ng-container *ngFor="let key of selectedFilters">
+      <ng-container *ngFor="let group of filterTypeOptions">
+        <ng-container *ngFor="let filter of group.filters">
+          <span *ngIf="filter.key === key" class="p-chip p-component p-chip-removeable">
+            <span class="p-chip-text">{{ filter.displayName }}</span>
+            <span class="pi pi-times p-chip-remove-icon" (click)="removeFilter(key)"></span>
+          </span>
+        </ng-container>
+      </ng-container>
+    </ng-container>
+  </div> -->
+  <!-- <div class="selected-filters d-flex flex-wrap gap-2 mt-2">
+    <ng-container *ngFor="let key of visibleFilters">
+      <ng-container *ngFor="let group of filterTypeOptions">
+        <ng-container *ngFor="let filter of group.filters">
+          <span *ngIf="filter.key === key" class="p-chip p-component">
+            <span class="p-chip-text">{{ filter.displayName }}</span>
+          </span>
+        </ng-container>
+      </ng-container>
+    </ng-container> -->
+
+  <!-- Ellipsis / "+X more" -->
+  <!-- <span *ngIf="hiddenFilters.length > 0" class="more-chip p-chip p-component">
+      +{{ hiddenFilters.length }} more
+    </span>
+  </div> -->
+
+  <div class="d-flex align-items-center gap-2 mt-2">
+    <!-- Show filter icon only if appliedFilters has any filter -->
+    <i *ngIf="appliedFilters.length > 0  && showFilterButton !== false" class="pi pi-filter filter-icon"></i>
+    <!-- This is your main filter display -->
+    <div class="selected-filters d-flex flex-wrap gap-2">
+      <ng-container *ngFor="let key of visibleFilters">
+        <ng-container *ngIf="getDisplayNameForFilter(key) as displayName">
+          <span class="p-chip p-component">
+            <span class="p-chip-text">{{ displayName }}</span>
+          </span>
+        </ng-container>
+      </ng-container>
+
+      <!-- "+X more" -->
+      <span
+        *ngIf="hiddenFilters.length > 0"
+        class="more-chip p-chip p-component cursor-pointer"
+        (click)="op.toggle($event)"
+      >
+        +{{ hiddenFilters.length }} more
+      </span>
+    </div>
+  </div>
+
+  <!-- ✅ OverlayPanel for hidden filters -->
+  <p-overlayPanel #op>
+    <div class="flex flex-wrap gap-2 p-2" style="max-width: 300px">
+      <ng-container *ngFor="let key of hiddenFilters">
+        <ng-container *ngIf="getDisplayNameForFilter(key) as displayName">
+          <span *ngIf="displayName" class="p-chip p-component">
+            <span class="p-chip-text">{{ displayName }}</span>
+          </span>
+        </ng-container>
+      </ng-container>
+    </div>
+  </p-overlayPanel>
+
+  <div class="search-right">
+    @if (hasSorting) {
+      <div class="d-flex align-items-center gap-1">
+        <p-dropdown
+          [options]="sortFields"
+          [(ngModel)]="selectedSortField"
+          placeholder="Select Sort Field"
+          optionLabel="label"
+          optionValue="value"
+          styleClass="w-13rem"
+          (onChange)="onSortFieldChange()"
+        ></p-dropdown>
+
+        <button
+          pButton
+          type="button"
+          icon="{{ sortDirection === 'asc' ? 'pi pi-sort-amount-up' : 'pi pi-sort-amount-down' }}"
+          class="p-button-text"
+          (click)="toggleSortDirection()"
+          [disabled]="!selectedSortField"
+          [style.cursor]="selectedSortField ? 'pointer' : 'not-allowed'"
+        ></button>
+      </div>
+    }
+
+    <!-- Filter Button -->
+    <p-button
+      *ngIf="showFilterButton !== false"
+      #filterButton
+      class="tm-primary-outline"
+      label="Filter"
+      [outlined]="true"
+      severity="secondary"
+      icon="pi pi-filter"
+      (click)="openFilterOverlay($event, filterButton.el.nativeElement)"
+      badge="{{ showBadge }}"
+      badgeClass="p-badge-info"
+    ></p-button>
+
+    <!-- OverlayPanel for Filter -->
+    <p-overlayPanel #filterOverlay styleClass="advance-search-overlay" (onShow)="onOverlayOpen()">
+      <div class="filter-options side-bar-scroll">
+        <!-- Grouped Filters Section -->
+        <ng-container *ngIf="filterTypeOptions?.length">
+          <div class="sticky-apply-btn" style="display: flex; justify-content: center; gap: 1rem">
+            <button
+              pButton
+              type="button"
+              class="tm-primary-btn"
+              label="Apply Filter"
+              (click)="applySelectedFilters()"
+              style="width: 7.5rem; height: 2.5rem; font-size: 0.8rem"
+            ></button>
+            <button
+              pButton
+              type="button"
+              class="tm-primary-btn"
+              label="Reset Filter"
+              (click)="resetFilters()"
+              [disabled]="selectedFilters.length === 0"
+              style="width: 7.5rem; height: 2.5rem; font-size: 0.8rem"
+            ></button>
+          </div>
+          <p-accordion
+            *ngIf="showAccordion"
+            [(activeIndex)]="activeAccordionIndexes"
+            [multiple]="false"
+          >
+            <p-accordionTab
+              *ngFor="let group of filterTypeOptions"
+              [header]="(group.type | titlecase) + ' (' + getSelectedCountByType(group.type) + ')'"
+            >
+              <ul>
+                <input
+                  type="search"
+                  placeholder="Search"
+                  class="mb-2 py-2"
+                  [(ngModel)]="group.searchText"
+                  pInputText
+                />
+                <ng-container *ngFor="let filter of group.filters">
+                  <ng-container
+                    *ngIf="
+                      (!group.searchText ||
+                        filter.displayName
+                          .toLowerCase()
+                          .includes(group.searchText.toLowerCase())) &&
+                      (filter.displayName.toLowerCase().trim() !== 'no data found' ||
+                        group.filters.length === 1)
+                    "
+                  >
+                    <li *ngIf="isImmediateFilter(filter.key); else checkboxGroup">
+                      <span
+                        (click)="applyFilter(filter.key)"
+                        class="immediate-filter clickable"
+                        [class.selected-immediate]="selectedFilters.includes(filter.key)"
+                      >
+                        {{ filter.displayName }}
+                        <span *ngIf="group.type === 'User Filter'">
+                          ({{
+                            filterCounts?.[filter.key] ||
+                              filterCounts?.[filter.key.toUpperCase()] ||
+                              0
+                          }})
+                        </span>
+                      </span>
+                    </li>
+                    <ng-template #checkboxGroup>
+                      <li>
+                       <span *ngIf="filter?.displayName?.toLowerCase()?.trim() !== 'no data found' && group.filters.length > 0">
+                          <p-checkbox
+                            [binary]="true"
+                            [ngModel]="selectedFilters.includes(filter.key)"
+                            (onChange)="toggleFilterSelection(filter.key)"
+                          ></p-checkbox>
+                        </span>
+                        {{ filter.displayName }}
+                        <span
+                          *ngIf="
+                            filter?.displayName?.toLowerCase()?.trim() !== 'no data found' &&
+                            group.type === 'Building'
+                          "
+                        >
+                          <p-tag [value]="filter.propertyName" [rounded]="true" />
+                        </span>
+                        <span *ngIf="group.type === 'User Filter'">
+                          ({{
+                            filterCounts?.[filter.key] ||
+                              filterCounts?.[filter.key.toUpperCase()] ||
+                              0
+                          }})
+                        </span>
+                      </li>
+                    </ng-template>
+                  </ng-container>
+                </ng-container>
+              </ul>
+            </p-accordionTab>
+            <p-accordionTab header="Custom Filter">
+              <ul>
+                <li>
+                  <span>
+                    <p-checkbox
+                      [binary]="true"
+                      [ngModel]="isCustomFilterSelected()"
+                      (onChange)="toggleFilterSelection('custom')"
+                      [disabled]="!customFilterValue || customFilterValue <= 0"
+                    ></p-checkbox>
+                  </span>
+                  &nbsp; Next
+                  <input
+                    pInputText
+                    class="custom-width"
+                    type="number"
+                    pSize="small"
+                    [(ngModel)]="customFilterValue"
+                    (ngModelChange)="onCustomFilterValueChange($event)"
+                    min="1"
+                  />
+
+                  Day/s
+                </li>
+              </ul>
+            </p-accordionTab>
+          </p-accordion>
+        </ng-container>
+
+        <!-- Flat Filters Section -->
+        <ng-container *ngIf="singleFilterOptions?.length">
+          <ul>
+            <ng-container *ngFor="let filter of singleFilterOptions">
+              <li
+                *ngIf="isImmediateFilter(filter.key); else checkboxFlat"
+                class="immediate-filter clickable"
+                [class.selected-immediate]="selectedFilters.includes(filter.key)"
+                (click)="applyFilter(filter.key)"
+              >
+                {{ filter.displayName }}
+              </li>
+              <ng-template #checkboxFlat>
+                <li [class.selected-filter]="selectedFilters.includes(filter.key)">
+                  <span>
+                    <p-checkbox
+                      [binary]="true"
+                      [ngModel]="selectedFilters.includes(filter.key)"
+                      (onChange)="toggleFilterSelection(filter.key)"
+                    ></p-checkbox>
+                  </span>
+                  {{ filter.displayName }}
+                </li>
+              </ng-template>
+            </ng-container>
+          </ul>
+        </ng-container>
+      </div>
+    </p-overlayPanel>
+
+    @if (showButton) {
+      <p-button
+        class="tm-primary-btn"
+        [label]="buttonLabel"
+        (click)="onButtonClick.emit()"
+        icon="pi pi-plus"
+      />
+    }
+  </div>
+</div>

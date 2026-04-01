@@ -1,0 +1,20 @@
+.task-container {
+  height: calc(100vh - 100px); 
+  overflow: auto; 
+  margin: 0 -1.5rem;
+  padding: 0 1.5rem;
+  // position: relative;
+  flex-direction: column-reverse; 
+}
+
+::ng-deep app-prime-tree-table {
+  display: block;  
+  height: 100%;
+  overflow: auto; 
+}
+
+::ng-deep .main-content {
+  position: relative !important;
+  overflow: hidden !important;
+}
+

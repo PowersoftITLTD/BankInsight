@@ -1,0 +1,9 @@
+    <div class="toaster-container">
+      <div class="toast toast-{{toast.type}}" 
+        [style.bottom.px]="i*100">
+        <h4 class="toast-heading"><b>{{toast.title}}</b></h4>
+        <p>{{toast.body}}</p>
+        <a class="close" (click)="remove.emit(i)">&times;</a>
+      </div>
+    </div>
+  

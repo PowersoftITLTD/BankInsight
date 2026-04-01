@@ -1,0 +1,22 @@
+<p-button
+  class="w-full flex justify-content-center align-items-center border-round-lg py-3 gap-2"
+  [ngClass]="{
+    'icon-start': (iconStart && iconPosition === 'start') || iconPosition === 'both',
+    'icon-end': (iconEnd && iconPosition === 'end') || iconPosition === 'both'
+  }"
+  [loading]="isLoading"
+  [disabled]="disabled"
+  (onClick)="handleClick()"
+>
+  <ng-template pTemplate="content">
+    @if (iconStart && (iconPosition === 'start' || iconPosition === 'both')) {
+      <i class="pi" [ngClass]="iconStart"></i>
+    }
+
+    <div>{{ label }}</div>
+
+    @if (iconEnd && (iconPosition === 'end' || iconPosition === 'both')) {
+      <i class="pi" [ngClass]="iconEnd"></i>
+    }
+  </ng-template>
+</p-button>

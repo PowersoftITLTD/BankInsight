@@ -1,0 +1,20 @@
+<app-toaster-container></app-toaster-container>
+
+<div class="layout" style="display: flex; height: 100vh">
+
+  <aside class="sidebar" [ngStyle]="{ width: docked ? '250px' : '80px', transition: 'width 0.6s ease' }">
+    <app-side-bar [docked]="docked" (dockToggled)="docked = !docked"></app-side-bar>
+  </aside>
+  
+  <div class="layout-body" [ngStyle]="{ transition: 'all 0.6s ease' }">
+
+    <header class="top-menu">
+      <app-header></app-header>
+    </header>
+
+    <main class="main-content px-4">
+      <router-outlet></router-outlet>
+    </main>
+
+  </div>
+</div>

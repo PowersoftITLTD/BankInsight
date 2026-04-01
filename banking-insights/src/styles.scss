@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import '../../banking-insights/src/styling/variables.scss';
+// import Quill styles in styles.scss
+@import '../node_modules/quill/dist/quill.core.css';
+@import '../node_modules/quill/dist/quill.snow.css';
+
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --font-family: $font-family;
+  --border-radius: 8px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-color;
+  font-family: $font-family;
+    font-family: 'Roboto', sans-serif;
+
+}

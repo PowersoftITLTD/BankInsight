@@ -1,0 +1,50 @@
+<div class="input-wrapper">
+  <!-- Label -->
+  @if (label) {
+    <label class="input-label">{{ label }}</label>
+  }
+
+  <div class="input-container">
+    <!-- Left Icon -->
+    @if (iconStart) {
+      <i class="pi left-icon" [ngClass]="iconStart"></i>
+    }
+
+    <!-- Input Field -->
+    <input
+      pInputText
+      [type]="inputType"
+      [placeholder]="placeholder"
+      [value]="value"
+      (input)="onInput($event)"
+      (blur)="markAsTouched()"
+      [disabled]="isDisabled"
+      [ngClass]="{ 'input-error': getErrorMessage() }"
+      [style.paddingLeft]="iconStart ? '40px' : '16px'"
+      [style.paddingRight]="
+        (type === 'password' && enablePasswordToggle) || iconEnd
+          ? '40px'
+          : '16px'
+      "
+    />
+
+    <!-- Right Icon (non-password) -->
+    @if (iconEnd && !(type === 'password' && enablePasswordToggle)) {
+      <i class="pi right-icon" [ngClass]="iconEnd"></i>
+    }
+
+    <!-- Password Toggle -->
+    @if (type === 'password' && enablePasswordToggle) {
+      <i
+        class="pi password-toggle-icon"
+        [ngClass]="isPasswordVisible ? 'pi-eye-slash' : 'pi-eye'"
+        (click)="togglePasswordVisibility()"
+      ></i>
+    }
+  </div>
+
+  <!-- Error Message -->
+  @if (control.invalid && control.touched) {
+    <div class="error-message">{{ getErrorMessage() }}</div>
+  }
+</div>

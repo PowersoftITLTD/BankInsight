@@ -1,0 +1,21 @@
+<div class=" mt-2">
+
+  <app-advance-search-bar [showButton]="false" (searchChanged)="onSearchInput($event)" [searchInputWidth]="'220px'"
+    [showFilterButton]="false">
+  </app-advance-search-bar>
+
+
+  <!-- Use the child component and pass data to it -->
+  <div class="task-container">
+    <app-prime-tree-table firstColumnField="name" firstColumnHeader="Entity/ Project/ Account"
+      [data]="teamTaskData | dashboardTableFilter: receivedSearchText"
+      [expandAll]="receivedSearchText.trim() ? true : false" [groupedColumns]="groupedColumns"  (iconClicked)="onIconClick($event)">
+    </app-prime-tree-table>
+  </div>
+
+  <app-view-icon-details [visible]="sidebarVisible"
+    [rowData]="selectedRow"
+    (sidebarHide)="closeSidebar()">
+  </app-view-icon-details>
+
+</div>

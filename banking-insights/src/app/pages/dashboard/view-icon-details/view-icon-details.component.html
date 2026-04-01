@@ -1,0 +1,48 @@
+<p-sidebar
+  [(visible)]="visible"
+  position="right"
+  [baseZIndex]="10000"
+  [style]="{ width: '20rem' }"
+  (onHide)="closeSidebar()"
+>
+  <!-- Header -->
+  <ng-template pTemplate="header">
+    <div class="flex flex-column gap-1">
+      <h4 class="m-0">{{ rowData?.subsidiary }}</h4>
+      <small class="text-500">Account Details</small>
+    </div>
+  </ng-template>
+
+  <!-- Body -->
+  <div class="account-details">
+
+    <div class="detail-row">
+      <span class="label">Unclear Funds</span>
+      <span class="value">
+        {{ rowData?.unclear_funds || 0 | number:'1.2-2' }}
+      </span>
+    </div>
+
+    <div class="detail-row">
+      <span class="label">Net Balance</span>
+      <span class="value">
+        {{ rowData?.netBalance | number:'1.2-2' }}
+      </span>
+    </div>
+
+    <div class="detail-row">
+      <span class="label">Overdraft</span>
+      <span class="value">
+        {{ rowData?.overdraft || 0 | number:'1.2-2' }}
+      </span>
+    </div>
+
+    <div  [ngClass]="negativeAmtfield(rowData?.balAvailable)">
+      <span class="label">Current Balance</span>
+      <span class="value">
+        {{ rowData?.balAvailable | indianCurrency }}
+      </span>
+    </div>
+
+  </div>
+</p-sidebar>

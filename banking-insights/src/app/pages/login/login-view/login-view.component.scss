@@ -1,0 +1,268 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; // Prevents overall page scroll
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  .col-12 {
+    height: 100%;
+  }
+
+  .img-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img.login-logo {
+      height: 100%;
+      width: 100%;
+      object-fit: cover; // Ensures image fills container
+    }
+  }
+
+  
+
+  .login-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto; // Scroll only internal form on small screens
+    padding: 32px 16px;
+
+    .form-container {
+      width: 100%;
+      max-width: 410px;
+      margin: 0 auto;
+      padding-bottom: 24px;
+
+      h2 {
+        color: #131313;
+        font-size: 32px;
+        line-height: 28px;
+        margin-bottom: 9px;
+      }
+
+      p {
+        color: #a9a9a9;
+        font-size: 14px;
+        margin-bottom: 35px;
+      }
+
+      .grd-btn {
+        background-image: linear-gradient(45deg, #0d6af0, #a81be9 70%) !important;
+      }
+    }
+
+    .login-footer {
+      font-size: 12px;
+      text-align: center;
+      margin-top: auto;
+
+      img {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+// Optional container class if you use login-main-container separately
+.login-main-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  .image-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(250deg, rgba(238, 174, 202, 1) 2%, rgba(148, 187, 233, 1) 100%);
+  }
+
+  .login-logo {
+    width: 100%;
+  }
+
+  .login-data-container,
+  .otp-form-container {
+    flex: 1;
+    padding: 0 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+
+    h2 {
+      font-size: 24px;
+      margin-top: 30px;
+      margin-bottom: 13px;
+      color: #333;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 30px;
+      color: #666;
+    }
+
+    .input-label {
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .custom-otp-input::placeholder {
+      color: rgba(156, 163, 175, 0.397);
+      opacity: 1;
+    }
+
+    .custom-otp-input {
+      width: 20%;
+      height: 56px;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 24px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      transition: border-color 0.3s ease;
+      margin-bottom: 20px;
+
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      &:focus {
+        border-color: #007bff;
+        outline: none;
+      }
+
+      &:not(:last-child) {
+        margin-right: 16px;
+      }
+    }
+
+    .resend-container {
+      font-size: 14px;
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+        margin: 0;
+      }
+
+      .resendText {
+        font-weight: 600;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        font-size: 15px;
+        letter-spacing: 1px;
+      }
+    }
+
+    .back-link {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      cursor: pointer;
+      margin-bottom: 0;
+
+      i {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .p-inputotp .p-inputtext {
+    font-size: 24px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 12px 14px !important;
+    flex: 1;
+  }
+
+  .p-inputotp input:last-child {
+    margin-right: 0;
+  }
+
+  .p-inputotp input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+}
+
+.get-otp-btn {
+  float: right;
+}
+
+.custom-otp-input {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 0.3rem;
+}
+
+.resend-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #6b7280;
+  align-items: flex-start;
+}
+
+.resend-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.resend-text {
+  cursor: pointer;
+}
+
+.countdown-text {
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+::ng-deep .google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  width: 100%;
+}
